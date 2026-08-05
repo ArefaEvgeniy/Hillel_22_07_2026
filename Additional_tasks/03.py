@@ -11,14 +11,3 @@
 
 # Довжина кола: 28.274333882308138
 # Площа кола: 63.61725123519331
-
-
-import math
-
-radius = float(input("Введіть радіус кола: "))
-
-circumference = 2 * math.pi * radius
-area = math.pi * radius ** 2
-
-print("Довжина кола: ", circumference)
-print("Площа кола: ", area)
