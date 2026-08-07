@@ -9,3 +9,20 @@ while number > 0:
     number -= 1
 
 print("Сумма квадратов чисел:", sum)
+
+#
+# 135 = 0:02:15
+#
+# 1 мин = 60 сек
+# 1 час = 3600 сек
+#
+# //
+# %
+
+# time = int(input("Введите время в секундах: "))
+#
+# hours = time // 3600
+# time = time % 3600
+# minutes = time // 60
+# seconds = time % 60
+# print("Часов:", hours, "Минут:", minutes, "Секунд:", seconds)
