@@ -14,21 +14,11 @@
 # Робити запит на введення даних від користувача не потрібно.
 
 
-def func(my_list):
-    range(0, len(my_list), 2)
+a = [0, 7, 9, 12, -1, 100]
 
-    if len(my_list) == 0:
-        return(0)
-    else:
-        sum = 0
-        for i in range(0, len(my_list), 2):
-            sum = sum + my_list[i]
-            sum * my_list[-1]
-
-        return sum * my_list[-1]
-
-
-print(func([0, 1, 7, 2, 4, 8]))
-print(func([1, 3, 5]))
-print(func([6]))
-print(func([]))
+b = 0
+for i in range(len(a)):
+    if i % 2 == 0:
+        b += a[i]
+result = b * (a[-1] if len(a) != 0 else 0)
+print(f"{a} => {result}")
